@@ -22,7 +22,7 @@
 		    $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 		    $mail->SMTPAuth = true;                               // Enable SMTP authentication
 		    $mail->Username = 'contact.lee.litigation@gmail.com';                 // SMTP username
-		    $mail->Password = 'vmwm ambm sxkv alyg';                           // SMTP password
+		    $mail->Password = 'xxxx xxxx xxxx xxxx';                           // SMTP password
 		    $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 		    $mail->Port = 465;                                    // TCP port to connect to
 
@@ -30,7 +30,6 @@
 		    $mail->setFrom('contact.lee.litigation@gmail.com', 'Mailer');
 		    $mail->addAddress('info@leelitigation.com', 'Info');
 		    $mail->addAddress('tara@leelitigation.com', 'Tara');
-		    $mail->addAddress('annguyen1291@gmail.com', 'An Nguyen');
 
 		    //Content
 		    $mail->isHTML(true);
